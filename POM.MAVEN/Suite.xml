@@ -1,0 +1,14 @@
+
+<suite name="Suite1" verbose="1" >
+  <test name="Regression1"   >
+  <groups>
+<run>
+<include name="sanity"></include>
+</run>
+  </groups>
+    <packages>
+      <package name="homePage" />
+      <package name="paymentPage" />
+   </packages>
+ </test>
+</suite>

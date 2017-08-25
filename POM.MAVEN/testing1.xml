@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+  <test name="Regression1">
+    
+    <classes>
+      <class name="homePage.TC001_VerifyLoginWithInvalidCredentials"/>
+      <class name="homePage.TC02_VerifyRegistration"/>
+      <class name="homePage.TC003_VerifyLoginMultipleInput">
+      
+     <methods>
+        <exclude name="getTestData" />
+        </methods>
+      </class>
+      
+      <class name="homePage.TC004_Testing"/>
+    </classes>
+    
+    
+    
+  </test>
+  
+</suite>

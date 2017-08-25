@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="394" started-at="2017-08-23T23:15:29Z" finished-at="2017-08-23T23:15:30Z">
+    <groups>
+      <group name="sanity">
+        <method signature="PaymentPage.payment()[pri:0, instance:paymentPage.PaymentPage@49993335]" name="payment" class="paymentPage.PaymentPage"/>
+        <method signature="TC003_VerifyLoginMultipleInput.TestLogin()[pri:0, instance:homePage.TC003_VerifyLoginMultipleInput@5649fd9b]" name="TestLogin" class="homePage.TC003_VerifyLoginMultipleInput"/>
+        <method signature="TC004_Testing.Login()[pri:0, instance:homePage.TC004_Testing@5025a98f]" name="Login" class="homePage.TC004_Testing"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Regression1" duration-ms="394" started-at="2017-08-23T23:15:29Z" finished-at="2017-08-23T23:15:30Z">
+      <class name="paymentPage.PaymentPage">
+        <test-method status="PASS" signature="payment()[pri:0, instance:paymentPage.PaymentPage@49993335]" name="payment" duration-ms="37" started-at="2017-08-23T16:15:29Z" finished-at="2017-08-23T16:15:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment -->
+      </class> <!-- paymentPage.PaymentPage -->
+      <class name="homePage.TC003_VerifyLoginMultipleInput">
+        <test-method status="PASS" signature="TestLogin()[pri:0, instance:homePage.TC003_VerifyLoginMultipleInput@5649fd9b]" name="TestLogin" duration-ms="241" started-at="2017-08-23T16:15:29Z" finished-at="2017-08-23T16:15:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+      </class> <!-- homePage.TC003_VerifyLoginMultipleInput -->
+      <class name="homePage.TC004_Testing">
+        <test-method status="PASS" signature="Login()[pri:0, instance:homePage.TC004_Testing@5025a98f]" name="Login" duration-ms="2" started-at="2017-08-23T16:15:30Z" finished-at="2017-08-23T16:15:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- homePage.TC004_Testing -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
